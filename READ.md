@@ -13,15 +13,20 @@
 
 ## Database Structure
 
-- Customers
-- Products
-- Product Categories
-- Suppliers
-- Purchases
+- Credit
+- Customer
+- Employee
+- Employee Addresses
+- Financials
+- List Totals
 - Orders
-- Credits
-- Employees
-- Financial Records
+- Orders Detail
+- Product
+- Product Type
+- Purchases
+- Supplier
+- Top Customers
+- Xtreme Info
 
 ## Tools Used
 
