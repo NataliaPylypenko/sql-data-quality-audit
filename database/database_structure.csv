@@ -1,0 +1,160 @@
+﻿TABLE_NAME,COLUMN_NAME,DATA_TYPE
+Credit,Credit Authorization Number,nvarchar
+Credit,Customer Credit ID,int
+Credit,Amount,money
+Customer,Customer ID,int
+Customer,Customer Credit ID,int
+Customer,Customer Name,nvarchar
+Customer,Contact First Name,nvarchar
+Customer,Contact Last Name,nvarchar
+Customer,Contact Title,nvarchar
+Customer,Contact Position,nvarchar
+Customer,Last Year's Sales,money
+Customer,Address1,nvarchar
+Customer,Address2,nvarchar
+Customer,City,nvarchar
+Customer,Region,nvarchar
+Customer,Country,nvarchar
+Customer,Postal Code,nvarchar
+Customer,E-mail,nvarchar
+Customer,Web Site,nvarchar
+Customer,Phone,nvarchar
+Customer,Fax,nvarchar
+Employee,Employee ID,int
+Employee,Supervisor ID,int
+Employee,Last Name,nvarchar
+Employee,First Name,nvarchar
+Employee,Position,nvarchar
+Employee,Birth Date,datetime
+Employee,Hire Date,datetime
+Employee,Home Phone,nvarchar
+Employee,Extension,nvarchar
+Employee,Photo,image
+Employee,Notes,nvarchar
+Employee,Reports To,int
+Employee,Salary,money
+Employee,SSN,nvarchar
+Employee,Emergency Contact First Name,nvarchar
+Employee,Emergency Contact Last Name,nvarchar
+Employee,Emergency Contact Relationship,nvarchar
+Employee,Emergency Contact Phone,nvarchar
+Employee Addresses,Employee ID,int
+Employee Addresses,Address1,nvarchar
+Employee Addresses,Address2,nvarchar
+Employee Addresses,City,nvarchar
+Employee Addresses,Region,nvarchar
+Employee Addresses,Country,nvarchar
+Employee Addresses,Postal Code,nvarchar
+Employee Addresses,Emergency Contact Address1,nvarchar
+Employee Addresses,Emergency Contact Address2,nvarchar
+Employee Addresses,Emergency Contact City,nvarchar
+Employee Addresses,Emergency Contact Region,nvarchar
+Employee Addresses,Emergency Contact Country,nvarchar
+Employee Addresses,Emergency Contact Postal Code,nvarchar
+Financials,Company ID,nvarchar
+Financials,Statement Date,datetime
+Financials,Cash,float
+Financials,Account Receivable,float
+Financials,Inventories,float
+Financials,Other Current Assets,float
+Financials,Land,float
+Financials,Buildings,float
+Financials,Machinery etc,float
+Financials,Accumulated Depreciation,float
+Financials,Other Assets,float
+Financials,Accounts Payable,float
+Financials,Accrued Liabilities,float
+Financials,Accrued Income Taxes,float
+Financials,Notes Payable,float
+Financials,Deferred Income Taxes,float
+Financials,Preferred Stock,float
+Financials,Common Stock,float
+Financials,Retained Earnings,float
+Financials,Net Sales,float
+Financials,COGS,float
+Financials,Selling/Admin/ General Expenses,float
+Financials,Depreciation,float
+Financials,Interest Expenses,float
+Financials,Other Income Expenses,float
+Financials,Taxes,float
+List Totals,Expr1,money
+List Totals,Order ID,int
+Orders,Order ID,int
+Orders,Order Amount,money
+Orders,Customer ID,int
+Orders,Employee ID,int
+Orders,Order Date,datetime
+Orders,Required Date,datetime
+Orders,Ship Date,datetime
+Orders,Courier Website,nvarchar
+Orders,Ship Via,nvarchar
+Orders,Shipped,bit
+Orders,PO#,nvarchar
+Orders,Payment Received,bit
+Orders Detail,Order ID,int
+Orders Detail,Product ID,int
+Orders Detail,Unit Price,money
+Orders Detail,Quantity,int
+Product,Product ID,int
+Product,Product Name,nvarchar
+Product,Color,nvarchar
+Product,Size,nvarchar
+Product,M/F,nvarchar
+Product,Price (SRP),money
+Product,Product Type ID,int
+Product,Product Class,nvarchar
+Product,Supplier ID,int
+Product Type,Product Type ID,int
+Product Type,Product Type Name,nvarchar
+Product Type,Description,nvarchar
+Product Type,Picture,image
+Product Type,Graphic Image Location,nvarchar
+Purchases,Product ID,int
+Purchases,Reorder Level,int
+Purchases,Units in Stock,int
+Purchases,Units on Order,int
+Purchases,PO#,int
+Purchases,Order Date,datetime
+Purchases,Expected Receiving Date,datetime
+Purchases,Received,bit
+Purchases,Paid,bit
+Supplier,Supplier ID,int
+Supplier,Supplier Name,nvarchar
+Supplier,Address1,nvarchar
+Supplier,Address2,nvarchar
+Supplier,City,nvarchar
+Supplier,Region,nvarchar
+Supplier,Country,nvarchar
+Supplier,Postal Code,nvarchar
+Supplier,Phone,nvarchar
+sysdiagrams,name,nvarchar
+sysdiagrams,principal_id,int
+sysdiagrams,diagram_id,int
+sysdiagrams,version,int
+sysdiagrams,definition,varbinary
+Top Customers,Customer ID,int
+Top Customers,Customer Credit ID,int
+Top Customers,Customer Name,nvarchar
+Top Customers,Contact First Name,nvarchar
+Top Customers,Contact Last Name,nvarchar
+Top Customers,Contact Title,nvarchar
+Top Customers,Contact Position,nvarchar
+Top Customers,Last Year's Sales,money
+Top Customers,Address1,nvarchar
+Top Customers,Address2,nvarchar
+Top Customers,City,nvarchar
+Top Customers,Region,nvarchar
+Top Customers,Country,nvarchar
+Top Customers,Postal Code,nvarchar
+Top Customers,Phone,nvarchar
+Top Customers,Fax,nvarchar
+Xtreme Info,Xtreme Name,nvarchar
+Xtreme Info,Address,nvarchar
+Xtreme Info,City,nvarchar
+Xtreme Info,Province,nvarchar
+Xtreme Info,Country,nvarchar
+Xtreme Info,Postal Code,nvarchar
+Xtreme Info,Phone,nvarchar
+Xtreme Info,Fax,nvarchar
+Xtreme Info,Logo B&W,image
+Xtreme Info,Logo Color,image

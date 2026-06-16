@@ -1,0 +1,2 @@
+﻿Order ID,Order Amount,Customer ID,Employee ID,Order Date,Required Date,Ship Date,Courier Website,Ship Via,Shipped,PO#,Payment Received,Customer ID,Customer Credit ID,Customer Name,Contact First Name,Contact Last Name,Contact Title,Contact Position,Last Year's Sales,Address1,Address2,City,Region,Country,Postal Code,E-mail,Web Site,Phone,Fax
+3122,5879.7,200,3,00:00.0,00:00.0,00:00.0,#http://www.ups.com#,UPS,1,1282,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
